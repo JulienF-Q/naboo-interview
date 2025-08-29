@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "types": ["node", "@playwright/test"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "skipLibCheck": true
+  },
+  "include": [
+    "tests/**/*",
+    "playwright.config.ts"
+  ]
+}

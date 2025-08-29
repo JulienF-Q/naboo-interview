@@ -11,11 +11,13 @@
     "test": "playwright test"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
   },
   "devDependencies": {
     "@playwright/test": "1.55.0",
-    "@types/node": "^20.14.10",
+    "@types/node": "^20.19.11",
     "typescript": "5.8.3",
     "wrap-ansi": "^9.0.0"
   }
